@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace lista03.Model
+{
+    public class Livro
+    {
+        
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public int PublicationYear { get; set; }
+        public string Genre { get; set; }
+        public string Summary { get; set; }
+
+
+    }
+}
